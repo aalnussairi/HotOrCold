@@ -81,7 +81,7 @@
                     </li>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link btn btn-primary" style="color:white" href="#">Sign In</a>
+                        <a class="nav-link btn btn-primary" style="color:white" href="{{ route('login') }}">Sign In</a>
                     </li>
                 </ul>
             </div>
