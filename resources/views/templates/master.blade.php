@@ -22,6 +22,7 @@
   <!-- Bootstrap core CSS -->
   <link href="https://getbootstrap.com/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
 
+  <link rel="shortcut icon" type="image/x-icon" href="{{ URL::asset("favicon.ico") }}">
 
 </head>
 

@@ -1,6 +1,12 @@
 @if ($error)
 
-  <h1>{{ $error }}</h1>
+  <h1 class="text-center mx-auto">{{ $error }}</h1>
+
+  <script>
+    setTimeout(function(){
+      window.location.href = '{{ route("userDash.show") }}';
+    }, 5000);
+  </script>
 
   @else
     <div class="container">
